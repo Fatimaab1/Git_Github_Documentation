@@ -49,21 +49,23 @@ git rm - rf is used to remove files or folders from a git repository.
 To delete a file in your git respository execute the rm -rf command and specify the file to be deleted
 
 ### Creating a repo on Github and making it available on localhost
+To create a new repository follow the steps below
 
 **Step 1:** 
 Create a new repository on Github 
+![](create-a-repo.jpg)
 
 **Step 2:** Open a new terminal and enter the following commands:
-````
-cd - change directory
-mkdir <repo name> - make directory allows you to create a new directory/folder
-````
+`cd` - this will change the directory
+
+`mkdir <repo name>` -  this command allows you to create a new directory/folder
+
 **Step 3:** `nano README.md` to create a readme file
 
 **Step 4:** `cat README.md` to check if you have created the readme
 
 **Step 5:** Then follow the commands provided by Github
-
+![](github-repocommands.png)
 
 
 
